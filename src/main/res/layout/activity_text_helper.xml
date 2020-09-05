@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TextHelperActivity">
+
+    <TextView
+        android:id="@+id/queryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:scrollbars="vertical"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/answerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="Type your answer"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/sendAnswerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="prepareMessage"
+        android:text="Send Answer" />
+</LinearLayout>

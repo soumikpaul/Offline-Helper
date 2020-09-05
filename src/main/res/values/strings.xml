@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Offline Helper</string>
+    <string-array name="travel_mode">
+        <item>driving</item>
+        <item>walking</item>
+        <item>bicycling</item>
+        <item>transit</item>
+    </string-array>
+</resources>
